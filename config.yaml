@@ -1,0 +1,19 @@
+store_directory: /var/lib/nwhvs
+
+finger_print_image: /var/lib/nwhvs/finger-print.jpg
+not_found_image: /var/lib/nwhvs/face-sad.jpg
+
+timezone_offset: +07:00
+
+period: 3600
+
+device:
+  - name: back-door
+    url: http://192.168.1.3/
+    username: admin
+    password: admin
+
+  - name: front-door
+    url: http://192.168.1.4/
+    username: admin
+    password: admin

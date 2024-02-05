@@ -1,0 +1,32 @@
+{
+  "name": "facetrace-hvs",
+  "version": "1.0.0",
+  "description": "Facetrace Hkvision",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev index.ts"
+  },
+  "keywords": [
+    "facetrace",
+    "hkvision"
+  ],
+  "author": "Andrian Putra Ramadan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/express": "^4.17.21",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.11.16",
+    "@types/uuid": "^9.0.8",
+    "axios": "^1.6.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0",
+    "uuid": "^9.0.1"
+  }
+}
